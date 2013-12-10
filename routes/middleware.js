@@ -30,7 +30,7 @@ module.exports = function (req, res, next) {
     console.log('***');
     var buff = new Buffer(fields.text, 'utf-8').toString('utf-8');
     console.log(buff);
-    next();
+    next(); 
     // mailparser.write(fields);
     // mailparser.end()
   });
